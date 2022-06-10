@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.nav {
+    display: flex;
+    height: 50px;
+    margin-bottom: 100px;
+    padding: 0px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .ul {
+    display: flex;
+
+
+}
+
+.nav ul li {
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.criptos h1 {
+    width: 450px;
+    margin: auto;
+    margin-bottom: 60px;
+    
+}
+
+.criptos ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.criptos ul li{
+    padding: 10px 10px;
+    margin-right: 20px;
+    border: 3px solid #2eb25d;
+    border-radius: 10px;
+}
+
+
+.miCurva {
+     
+}
+
