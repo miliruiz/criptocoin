@@ -13,7 +13,7 @@
     <title>Criptocoin</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="img/bitcoin.png" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
 </head>
 
 <body>
@@ -23,30 +23,31 @@
             <ul class="ul">
                 <li>Home</li>
                 <li>Historical</li>
-                <li>Profile</li>
             </ul>
         </div>
-        
+
     </div>
     </div>
     <div class="criptos">
-        <h1>Conoce el precio de tus cripto favoritas</h1>
-        <ul class="lista__criptos">
+        <h1>Conoce el precio de tus <span class="color">cripto</span> favoritas</h1>
+        <ul id="criptos" class="lista__criptos">
             <li id="btc">BTC</li>
             <li id="eth">ETH</li>
             <li id="xrp">XRP</li>
             <li id="ltc">LTC</li>
             <li id="bnb">BNB</li>
-            <li>ADA</li>
-            <li>SOL</li>
+            <li id="ada">ADA</li>
+            <li id="sol">SOL</li>
         </ul>
     </div>
-    <button id="fetchdata">Get Details</button>
-    
-   <canvas id="myChart" class="miCurva" width="200" height="200"></canvas> 
-<script>
-;
-</script>
+
+    <canvas id="myChart" class="miCurva" width="500" height="300"></canvas>
+
+    <div class="consultas">
+        <ul id="consultas">
+            
+        </ul>
+    </div>
 
     <div class="footer">
         <h5>Criptocoin - 2022</h5>
