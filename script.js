@@ -1,6 +1,6 @@
 
 const getData = function (coin) {
-    fetch('https://min-api.cryptocompare.com/data/v2/histoday?fsym=' + coin + '&tsym=USD&limit=50')
+    fetch('https://min-api.cryptocompare.com/data/v2/histoday?fsym=' + coin + '&tsym=USD&limit=30')
         .then(response => response.json())
         .then(data => {
             var resultado = data.Data.Data
@@ -28,10 +28,6 @@ const getData = function (coin) {
                 ]
                 },
                 options: {
-
-                    plugins: {
-                        
-                    },
 
                     scales: {
                         y: {
